@@ -12,8 +12,7 @@ def TeamName():
     print (oliver.get_name())
     print (sb.get_name())
 
-if __name__ == "__main__":
-    TeamName()
+TeamName()
 
 def shortstory():
     print(lucas.act_one_lucas())
@@ -31,5 +30,5 @@ def shortstory():
     print(vaayu.vaayu_act_three())
     print(crisvsfile.cris_act_three())
     print(sb.Jingqi_act_three())
-if __name__ == "__main__":
-    shortstory()
+
+shortstory()
