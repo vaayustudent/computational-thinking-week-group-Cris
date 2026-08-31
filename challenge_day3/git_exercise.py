@@ -4,22 +4,13 @@ import namestring
 import oliver
 import sb
 
+def TeamName():
+    print ("This is Team Cris. We are:")
+    print (crisvsfile.get_name())
+    print (lucas.name())
+    print (namestring.get_name())
+    print (oliver.get_name())
+    print (sb.get_name())
 
-
-def our_team():
-    print("This is Team Cris. We are:")
-    for member in (crisvsfile, lucas, namestring, oliver, sb):
-        if hasattr(member, "get_name"):
-            result = member.get_name()
-        elif hasattr(member, "name"):
-            result = member.name()
-        else:
-            result = "Unknown member"
-
-        if callable(result):
-            result = result()
-
-        if result is None:
-            result = "Unknown member"
-
-        print(result)
+if __name__ == "__main__":
+    TeamName()
