@@ -28,13 +28,15 @@ LT4 = [
 
 
 def solution_station_5(name):
-    if name in LT1:
+    name = name.lower()
+
+    if name in [x.lower() for x in LT1]:
         return 1
-    elif name in LT2:
+    elif name in [x.lower() for x in LT2]:
         return 2
-    elif name in LT3:
+    elif name in [x.lower() for x in LT3]:
         return 3
-    elif name in LT4:
+    elif name in [x.lower() for x in LT4]:
         return 4
     else:
         return "Not found"
