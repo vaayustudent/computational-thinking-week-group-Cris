@@ -1,6 +1,6 @@
 import datetime
 
-def weekday_from_date(year, month, day):
+def solution_station_2(year, month, day) -> str:
     if datetime.date(year=year,month=month,day=day).weekday() == 0:
         return print('月曜日')
     elif datetime.date(day=day, month=month, year=year).weekday() == 1:
@@ -15,5 +15,6 @@ def weekday_from_date(year, month, day):
         return print('土曜日')
     elif datetime.date(day=day, month=month, year=year).weekday() == 6:
         return print('日曜日')
-    
-print(weekday_from_date(2023,5,12))
+
+
+print(solution_station_2(2024,10,13))
