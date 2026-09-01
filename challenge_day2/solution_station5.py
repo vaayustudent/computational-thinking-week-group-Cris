@@ -28,19 +28,14 @@ LT4 = [
 
 
 def solution_station_5(name):
-    name = name.lower()
+    first_name = name.split()[0].lower()
 
-    if name in [x.lower() for x in LT1]:
+    if first_name in [x.lower() for x in LT1]:
         return 1
-    elif name in [x.lower() for x in LT2]:
+    elif first_name in [x.lower() for x in LT2]:
         return 2
-    elif name in [x.lower() for x in LT3]:
+    elif first_name in [x.lower() for x in LT3]:
         return 3
-    elif name in [x.lower() for x in LT4]:
+    elif first_name in [x.lower() for x in LT4]:
         return 4
-    else:
-        return "Not found"
 
-
-#name = input("Enter name: ")
-#print(solution_station_5(name))
