@@ -27,7 +27,7 @@ LT4 = [
     "Lucas", "Michelle", "Oliwia", "Tom"]
 
 
-def find_team(name):
+def solution_station_5(name):
     if name in LT1:
         return 1
     elif name in LT2:
@@ -41,4 +41,4 @@ def find_team(name):
 
 
 name = input("Enter name: ")
-print(find_team(name))
+print(solution_station_5(name))
