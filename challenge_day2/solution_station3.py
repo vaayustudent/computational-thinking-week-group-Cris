@@ -4,8 +4,11 @@
 #Time 09:46:30 SI:60 SO:True I:34688
 #divisible by 3
 
-def sulution_station_3(x):
+def solution_station_3(x):
     if x%3 == 0:
         return "True"
     else:
         return "False"
+
+
+print(solution_station_3(9))
