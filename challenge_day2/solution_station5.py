@@ -27,9 +27,7 @@ LT4 = [
     "Lucas", "Michelle", "Oliwia", "Tom"]
 
 
-# input name output group number
-
-def solution_station_5(name: str) -> int:
+def find_team(name):
     if name in LT1:
         return 1
     elif name in LT2:
@@ -39,4 +37,8 @@ def solution_station_5(name: str) -> int:
     elif name in LT4:
         return 4
     else:
-        return 0
+        return "Not found"
+
+
+name = input("Enter name: ")
+print(find_team(name))
