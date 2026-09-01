@@ -25,7 +25,7 @@ plt.plot(z, y, '.')
 plt.xlabel('X axis')
 plt.ylabel('Y axis')
 plt.title('plotting x on y')
-plt.show()
+# plt.show()
 
 
 def solution_station_6(x):
