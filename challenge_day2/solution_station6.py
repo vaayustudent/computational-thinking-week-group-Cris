@@ -1,7 +1,7 @@
 import matplotlib.pyplot as plt
 import math
 
-x = [ 0.4, 
+z = [ 0.4, 
      0.8,
     1.6,
     1.7,
@@ -21,10 +21,10 @@ y = [0.3894,
     0,
     0.9093]
 
-plt.plot(x, y, '.')
-plt.xlabel('X-axis')
-plt.ylabel('Y-axis')
-plt.title('Line Plot Example')
+plt.plot(z, y, '.')
+plt.xlabel('X axis')
+plt.ylabel('Y axis')
+plt.title('plotting x on y')
 plt.show()
 
 
