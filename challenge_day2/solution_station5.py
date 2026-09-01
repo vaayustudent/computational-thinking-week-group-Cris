@@ -9,23 +9,22 @@
 LT1 = [
     "Ainas", "Tobit", "Yasmin", "Zoë", "Luliia", "Klementyna", "Markus", "Mufang",
     "Oumaima", "Ebony", "Nandini", "Nathan", "Tiara", "Yurui", "Ben", "Christopher",
-    "Lula", "Muni", "Yuvraj"
-]
+    "Lula", "Muni", "Yuvraj"]
 
 LT2 = [
     "Alex", "Arwen", "Rajko", "Sylwia", "Zeno", "Iris", "Katharina", "Minseo",
     "Sade", "Huy", "Christina", "Helen", "Mark", "Mats", "Vadim", "David",
-    "Lora", "Quinn", "Tarling"
-]
+    "Lora", "Quinn", "Tarling"]
 
 LT3 = [
     "Elizabeth", "Gabriel", "Jakub", "Luc", "Soelie", "Aleksandra", "Arnav",
     "Donna", "Milan", "Rongze", "Cris", "Jingqi", "Oliver", "Vaayu", "Yusef",
-    "Afua", "Anna", "Daniel", "Nataly", "Rafael"
-]
+    "Afua", "Anna", "Daniel", "Nataly", "Rafael"]
 
 LT4 = [
     "Jeremy", "Krishiv", "Neel", "Yujie", "Yutong", "An Nguyen", "Heer",
     "Paige", "Samir", "Amalia", "Douwe", "Ilya", "Maria", "Rakin", "Lara",
-    "Lucas", "Michelle", "Oliwia", "Tom"
-]
+    "Lucas", "Michelle", "Oliwia", "Tom"]
+
+
+# input name output group number
