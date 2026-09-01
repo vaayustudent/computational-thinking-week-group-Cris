@@ -42,5 +42,5 @@ def solution_station_5(name):
         return "Not found"
 
 
-name = input("Enter name: ")
-print(solution_station_5(name))
+#name = input("Enter name: ")
+#print(solution_station_5(name))
