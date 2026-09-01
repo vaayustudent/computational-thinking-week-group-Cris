@@ -9,3 +9,6 @@ def solution_station_3(x):
         return "True"
     else:
         return "False"
+
+
+print(solution_station_3(9))
