@@ -28,3 +28,15 @@ LT4 = [
 
 
 # input name output group number
+
+def solution_station_5(name: str) -> int:
+    if name in LT1:
+        return 1
+    elif name in LT2:
+        return 2
+    elif name in LT3:
+        return 3
+    elif name in LT4:
+        return 4
+    else:
+        return 0
