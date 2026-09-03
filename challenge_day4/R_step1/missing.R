@@ -13,8 +13,8 @@ json_data <- fromJSON("challenge_day4/fulldata/data1.json")
 people_df <- as.data.frame(json_data$people)
 
 # Replace NAs with column means
-for (col_name in names(people_df)) {
-  if (is.numeric(people_df[[col_name]])) {
+for(col_name in names(people_df)) {
+  if(is.numeric(people_df[[col_name]])) {
     # Calculate mean, excluding NAs
     col_mean <- mean(people_df[[col_name]], na.rm = TRUE)
     
@@ -23,7 +23,7 @@ for (col_name in names(people_df)) {
   }
 }
 
-# Replace the 'people' data with the modified data frame
+# Replace the 'people' list in the original data with the modified data frame
 json_data$people <- people_df #this was earlier person_df
 
 # Convert the updated data back to JSON format
