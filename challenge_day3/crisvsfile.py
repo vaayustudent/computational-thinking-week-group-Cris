@@ -18,7 +18,7 @@ def cris_act_three ():
        from sb import character_three
        from oliver import character_five
        
-       return f"A dark local rumour says that we are being watched by the eyes of Soelie is that right, because I am feeling uncomfortable right now, I can DEFINITELY tell there is something watch us in those walls, sounds like the claws hitting sound from the RATS!!!!!!!!!!!!! Who is watching this and who is watching us!! This is getting…” {character_three} says. “But im hungry now, I want to eat ramen.” {character_three}, {character_one}, Norie and {character_two} saying sychronizedly together."
+       return f"A dark local rumour says that we are being watched by the eyes of Soelie is that right, because I am feeling uncomfortable right now, I can DEFINITELY tell there is something watch us in those walls, sounds like the claws hitting sound from the RATS!!!!!!!!!!!!! Who is watching this and who is watching us!! This is getting…” {character_three} says. “But im hungry now, I want to eat ramen.” {character_five}, {character_one}, Norie and {character_two} saying sychronizedly together."
 
 def cris_act_two ():
        from vaayu import character_one
